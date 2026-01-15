@@ -1,0 +1,29 @@
+/* Praytime Extension Stilleri */
+
+.praytime-panel-box {
+    spacing: 4px;
+}
+
+.praytime-label {
+    font-weight: bold;
+}
+
+.praytime-header {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.praytime-location {
+    font-style: italic;
+    color: #888;
+}
+
+.praytime-active {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.praytime-next {
+    background-color: rgba(76, 175, 80, 0.2);
+    border-radius: 4px;
+}

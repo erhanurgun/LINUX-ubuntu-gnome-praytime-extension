@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="praytime@erho.dev">
+  <schema id="org.gnome.shell.extensions.praytime" path="/org/gnome/shell/extensions/praytime/">
+
+    <!-- Konum Ayarları -->
+    <key name="use-manual-location" type="b">
+      <default>false</default>
+      <summary>Manuel konum kullan</summary>
+      <description>Otomatik konum yerine manuel girilen koordinatları kullan</description>
+    </key>
+
+    <key name="latitude" type="d">
+      <default>41.0082</default>
+      <summary>Enlem</summary>
+      <description>Manuel konum enlemi (varsayılan: İstanbul)</description>
+    </key>
+
+    <key name="longitude" type="d">
+      <default>28.9784</default>
+      <summary>Boylam</summary>
+      <description>Manuel konum boylamı (varsayılan: İstanbul)</description>
+    </key>
+
+    <key name="city-name" type="s">
+      <default>'İstanbul'</default>
+      <summary>Şehir adı</summary>
+      <description>Gösterilecek şehir adı</description>
+    </key>
+
+    <!-- Bildirim Ayarları -->
+    <key name="notifications-enabled" type="b">
+      <default>true</default>
+      <summary>Bildirimleri etkinleştir</summary>
+      <description>Namaz vakti bildirimleri gösterilsin mi</description>
+    </key>
+
+    <key name="notify-before-minutes" type="i">
+      <default>5</default>
+      <summary>Kaç dakika önce bildir</summary>
+      <description>Vakit girmeden kaç dakika önce bildirim gösterilecek</description>
+      <range min="1" max="30"/>
+    </key>
+
+    <key name="notify-on-time" type="b">
+      <default>true</default>
+      <summary>Vakit girince bildir</summary>
+      <description>Vakit tam girdiğinde bildirim gösterilsin mi</description>
+    </key>
+
+    <!-- Gösterim Ayarları -->
+    <key name="show-countdown" type="b">
+      <default>true</default>
+      <summary>Geri sayım göster</summary>
+      <description>Sonraki vakte kalan süreyi göster</description>
+    </key>
+
+    <key name="panel-position" type="s">
+      <default>'right'</default>
+      <summary>Panel konumu</summary>
+      <description>Extension panelde nerede gösterilecek (left, center, right)</description>
+    </key>
+
+  </schema>
+</schemalist>
